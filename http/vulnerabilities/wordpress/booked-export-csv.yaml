@@ -11,11 +11,15 @@ info:
     - https://codecanyon.net/item/booked-appointments-appointment-booking-for-wordpress/9466968
     - http://boxyupdates.com/changelog.php?p=booked
     - https://wpscan.com/vulnerability/10107
+  classification:
+    cpe: cpe:2.3:a:twinkletoessoftware:booked:*:*:*:*:*:*:*:*
   metadata:
-    max-request: 1
     verified: true
-    publicwww-query: "/wp-content/plugins/booked/"
+    max-request: 1
+    vendor: twinkletoessoftware
+    product: booked
     fofa-query: "wp-content/plugins/booked/"
+    publicwww-query: "/wp-content/plugins/booked/"
     google-query: inurl:"/wp-content/plugins/booked/"
   tags: wordpress,wpscan,wp-plugin,wp,booked,bypass
 
@@ -46,3 +50,4 @@ http:
       - type: status
         status:
           - 200
+# digest: 4b0a004830460221008fd44a85810e6edc3925c1645d3dcdf1513ad8ac491df1e07c67110f1d016cf50221009fc76d3aa551969b995e84f87c5611e85b17884e2cd11d09a4ff124009793acd:922c64590222798bb761d5b6d8e72950

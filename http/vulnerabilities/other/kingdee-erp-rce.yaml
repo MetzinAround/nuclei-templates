@@ -9,8 +9,8 @@ info:
   reference:
     - https://github.com/PeiQi0/PeiQi-WIKI-Book/blob/main/docs/wiki/oa/%E9%87%91%E8%9D%B6OA/%E9%87%91%E8%9D%B6OA%20%E4%BA%91%E6%98%9F%E7%A9%BA%20kdsvc%20%E8%BF%9C%E7%A8%8B%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E.md
   metadata:
-    max-request: 1
     verified: true
+    max-request: 1
     fofa-query: app="金蝶云星空-管理中心"
   tags: kingdee-erp,rce,intrusive
 
@@ -36,3 +36,4 @@ http:
       - type: status
         status:
           - 200
+# digest: 4b0a00483046022100e3d5719df186caa10a73d9ba4e77b87c63a5164576e3847a957bc19bc7c3cda0022100a4cc2876783ec4cdc8b567b7401e5fa97d0933f6c0ec82f1504052b3277b5152:922c64590222798bb761d5b6d8e72950
